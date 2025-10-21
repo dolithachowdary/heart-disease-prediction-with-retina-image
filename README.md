@@ -1,54 +1,58 @@
-
-
-
 # 🫀 Heart Disease Prediction using Retinal Images
 
-This project uses deep learning to predict the risk of heart disease by analyzing retinal fundus images. The objective is to develop a non-invasive, AI-based solution to assist in early diagnosis of cardiovascular conditions.
+This project uses deep learning to predict the risk of heart disease by analyzing **retinal fundus images**.  
+The goal is to develop a **non-invasive, AI-based system** that aids in early diagnosis of cardiovascular conditions using retinal biomarkers.
 
 ---
 
 ## 📌 Features
 
-- Predicts heart disease risk from retinal images
-- Utilizes Convolutional Neural Networks (CNNs)
-- Trained on medical image datasets
-- Image preprocessing, training, and prediction pipeline included
+- Predicts **heart disease risk** from retinal fundus images  
+- Uses **Convolutional Neural Networks (CNNs)** for image classification  
+- Includes **image preprocessing, training, and prediction** pipeline  
+- Provides an interactive **Streamlit interface** for predictions  
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Language**: Python
-- **Libraries**: TensorFlow / Keras or PyTorch, OpenCV, NumPy, Pandas, Matplotlib
-- **Tools**: Jupyter Notebook / Google Colab / VSCode
+- **Language**: Python  
+- **Libraries**: TensorFlow / Keras or PyTorch, OpenCV, NumPy, Pandas, Matplotlib  
+- **Tools**: Streamlit, Jupyter Notebook / Google Colab / VSCode  
 
 ---
 
 ## 🗃️ Dataset
 
-Use public datasets like:
+Use any of the following public or custom datasets:
 
-- MESSIDOR (Retinal fundus images)
-- Kaggle Heart Disease datasets (for labels)
-- Custom dataset combining retinal images with cardiovascular risk scores
+- **MESSIDOR Dataset** – Retinal fundus images  
+- **Kaggle Heart Disease Dataset** – For heart disease labels  
+- **Custom Dataset** – Combining retinal images with cardiovascular risk scores  
 
-> Ensure proper handling of medical data and licenses.
+> ⚠️ Ensure ethical handling and licensing compliance for medical data.
 
 ---
 
 ## ⚙️ Installation
 
-1. Clone this repository:
-```bash
-git clone https://github.com/yourusername/retinal-heart-disease-prediction.git
-cd retinal-heart-disease-prediction
-````
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/retinal-heart-disease-prediction.git
+   cd retinal-heart-disease-prediction
+   ```
 
-2. Install dependencies:
+2. **Install dependencies**
 
-```bash
-pip install -r requirements.txt
-```
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Run the Streamlit app**
+
+   ```bash
+   streamlit run app.py
+   ```
 
 ---
 
@@ -72,6 +76,8 @@ python train.py
 python predict.py --image path_to_image.jpg
 ```
 
+Or use the **Streamlit interface** to upload and predict directly.
+
 ---
 
 ## 📈 Sample Results
@@ -83,15 +89,27 @@ python predict.py --image path_to_image.jpg
 | Recall    | 85%   |
 | AUC-ROC   | 0.89  |
 
-> Values may vary depending on dataset and model configuration.
+> Note: Results may vary depending on dataset size, preprocessing, and model configuration.
+
+---
+
+## 🖼️ Result Visualizations
+
+### 🔹 Training Loss & Accuracy
+
+![Training Loss and Accuracy](training_plot.png)
+
+### 🔹 Heart Disease Distribution
+
+![Heart Disease Distribution](class_distribution_pie_chart.png)
 
 ---
 
 ## 🚀 Future Scope
 
-* Improve model accuracy with transfer learning (e.g., EfficientNet, ResNet)
-* Build a web/mobile-based prediction interface
-* Integrate with electronic health records (EHR)
+* Improve model accuracy with **transfer learning** (e.g., EfficientNet, ResNet)
+* Develop **web or mobile-based screening interfaces**
+* Integrate with **Electronic Health Records (EHR)** for clinical usage
 
 ---
 
@@ -104,7 +122,12 @@ Fork the repository, make your changes, and submit a pull request.
 
 ## 👨‍💻 Author
 
-* **Name**: Dolitha chowdary
-* **Email**: dolithadasari1209@gmail.com
+**Name:** Dolitha Chowdary
+**Email:** [dolithadasari1209@gmail.com](mailto:dolithadasari1209@gmail.com)
 
+```
 
+ 
+
+Would you like me to add clickable badges (for Python, TensorFlow, Streamlit, etc.) at the top to make it look even more professional?
+```
