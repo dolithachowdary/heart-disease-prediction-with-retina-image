@@ -33,6 +33,10 @@ Use any of the following public or custom datasets:
 > ⚠️ Ensure ethical handling and licensing compliance for medical data.
 
 ---
+## View the Application:
+```bash
+https://projectheartdisease.streamlit.app/
+```
 
 ## ⚙️ Installation
 
